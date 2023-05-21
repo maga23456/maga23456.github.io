@@ -27,10 +27,9 @@ $array = array_map('str_getcsv', $csv);
 
       <div id="center" class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="background-color: white !important; border: 4px double black;">
           <div class="col-md-12 px-0">
-            <h1 class="display-4 font-italic" align="center" style="color: black;">Основы Python</h1>
-            <p class="lead my-3" align="center" style="color: black;">На данном пробном сайте вы можете ознакомится с основами Python</p>
-            <p class="lead mb-0" align="center" style="color: black;"><a href="https://www.python.org" class="text-black font-weight-bold">Ссылка на Python</a></p>
-          </div>
+            <h1 class="display-4 font-italic" align="center" style="color: black;"></h1>
+            <p class="lead my-3" align="center" style="color: black;">В каждой стране, у каждого народа имеются собственные секреты приготовления тех или иных блюд. В этой рубрике мы постарались собрать наиболее полную коллекцию рецептов из национальных кухонь мира.</p>  
+         </div>
         </div>
       </div>
       
