@@ -34,3 +34,58 @@ th {
  width: auto;
  text-align: center;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(img/elephant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: change 12s infinite linear;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: transparent;
+    background: url(https://media.giphy.com/media/26tnffyD8Rt8rIQ4E/giphy.gif);
+    -webkit-background-clip: text;
+}
+
+.content a {
+    background: #420dd3;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+@keyframes change {
+    0% {
+        background-image: url(img/elephant.jpg);
+    }
+    35% {
+        background-image: url(img/parrot.jpg);
+    }
+    68% {
+        background-image: url(img/tiger.jpg);
+    }
+}
